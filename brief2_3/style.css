@@ -8,8 +8,10 @@ body{
 header{
     font-size: 20px;
     display: flex;
+    align-items: baseline;
     margin: -8px;
     background-color: #3D3D3D;
+    padding-bottom: -10px;
 }
 ul{
     margin-left: -40px;
@@ -37,7 +39,7 @@ nav ul li a:hover{
     background-color: white;
     color: black;
     padding: 4px 8px;
-    margin: 5px;
+    margin-left: 5px;
     font-size: 36px;
 }
 .logo:hover{
@@ -69,25 +71,24 @@ img{
     font-size: 14px;
     color: #7cc433;
 }
-footer{
+article{
     display: flex;
     flex-flow: row wrap;
 }
-.footer{
-    margin: -8px;
-    padding: 5px;
-    padding-bottom: 10px;
+footer{
+    margin: 10px -8px -8px -8px;
+    padding: 20px;
     font-size: 14px;
     color: white;
     background-color: #3D3D3D;
     text-align: center;
 }
-footer a{
+article a{
     color: aliceblue;
     text-decoration: underline;
 }
 @media only screen and (max-width: 620px){
-    footer{
+    article{
         display: block;
         width: 100%;
     }
